@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+ul,li{ list-style:none;}
+body{ font-family:"微软雅黑"; font-size:15px;  color:#444;  line-height:24px; background:#ffe9bf;}
+a{ color:#444; text-decoration:none;}
+a:hover{ color:#8e3717;}
+.clearfix:after{
+content:"";
+display:block;
+visibility:hidden;
+clear:both;
+height:0;
+}
+.clearfix{
+zoom:1;
+}
+.page{ width:1200px; margin:0 auto;min-height:600px; background:#fff;}
+.top{ height:70px; background:#fff; padding-left:30px;}
+.top td{ height:70px; vertical-align:middle;}
+.logo{ font-size:24px; color:#444;}
+.logo img{ vertical-align:middle; margin-right:20px;}
+.menu{ float:right; margin-right:50px;}
+.menu li{ float:left; margin-right:20px;}
+.menu li a{ width:80px; display:block; color:#444; text-decoration:none; text-align:center; height:62px; line-height:60px; font-size:16px;}
+.menu li a:hover{ color:#daa145; border-bottom:2px solid #daa145; height:60px;}
+.title{ text-align:center; font-size:30px; font-weight:normal; margin:40px 0;}
+.con{ padding:20px;}
+.p_list .pic img{ width:480px;}
+.p_list .sm{ background:#fffbf5;} 
+.sm_con{ margin:30px; border:2px solid #daa145; padding:38px 30px; text-align:center;}
+.sm_con h3{ margin-bottom:10px;}
+.more{ display:block; padding:10px 20px; background:#daa145;  color:#fff; width:120px; text-align:center; margin:0 auto; margin-top:30px;border-radius:30px}
+.more:hover{ background:#F60; color:#fff;}
+.about .left_pic{ padding-right:30px;}
+.about_group{ margin-top:20px; text-align:center; background:#fffbf5;}
+.about_group td{ padding:30px 40px;}
+.about_group td h3{ margin:20px 0;}
+.bottom{ text-align:center; padding:10px 0; background:#daa145; color:#fff;}
+.about_us{ padding:0px 30px;}
+.about_us p{ margin-bottom:10px;}
+.about_us .left{ width: 70%; float: left;}
+.about_us .right{ width: 26%;float: right;}
+.about_pic{ width:770px; overflow:hidden; margin-top:30px;}
+.about_pic td{ text-align:center; padding-right:10px;}
+.about_pic td img{ width:300px;}
+.porduct_list td{ padding:0 10px;}
+.porduct_box{text-align:center; margin-bottom:10px;}
+.porduct_box a.pic{ width:270px; height:190px; overflow:hidden; text-align:center; display:block; margin-bottom:10px;}
+.porduct_box a.pic:hover{ width:270px; height:190px; overflow:hidden; text-align:center;}
+.porduct_box a.pic img{ width:270px; }
+.porduct_box a.pic:hover img{ width:300px;}
+.porduct_box .text{ color:#999;}
+.fanye{ text-align:center; margin:30px 0;}
+.fanye a{ display:inline-block; border:1px solid #ccc; padding:0px 10px; background:#efefef; margin-right:10px;}
+.news_list{ color:#999;}
+.news_list p{ margin-bottom:10px;}
+.news_list dl{ height:180px; border-bottom:1px dashed #ccc; padding:0px 30px; margin-bottom:20px; padding-bottom:20px;}
+.news_list dl dt{ width:250px; float:left; margin-right:30px; }
+.news_list dl dt img{ width:250px;}
+.news_list dl a{ font-size:18px;}
+.news_detaile{ padding:10px 30px;}
+.news_detaile p{ text-indent:2em; margin-bottom:10px;}
+.contact_us h3{ margin-bottom:20px;}
